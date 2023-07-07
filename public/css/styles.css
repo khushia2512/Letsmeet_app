@@ -1,0 +1,14 @@
+body {
+  background-color: #2886cd;
+}
+
+.centered {
+  text-align: left;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #076dfc;
+}

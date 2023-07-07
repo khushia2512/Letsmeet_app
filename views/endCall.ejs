@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+  <div class="container">
+    <div class="jumbotron centered">
+      <h1 class="display-5">Call Ended, Hope it went well...</h1>
+      <p class="secret-text">Write review</p>
+
+      <form action="/submit" method="POST">
+
+        <div class="form-group">
+          <input type="text" class="form-control text-center" name="feedback" placeholder="Your feedback here...">
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+        <!-- <a class="btn btn-light btn-lg" type="submit" role="button">Submit</a> -->
+        <a class="btn btn-primary btn-lg" href="/" role="button">Another Meet</a>
+      </form>
+
+
+    </div>
+  </div>
+  <%- include('partials/footer') %>
