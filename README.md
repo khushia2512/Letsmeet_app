@@ -1,4 +1,4 @@
-Gmeet Clone
+Let's Meet App
 
 Follow the given steps for starting the app
 1-npm install
